@@ -1,0 +1,174 @@
+body, html {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: grid;
+}
+main {
+    margin: 0px;
+}
+header {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.logo {
+    display: flex;
+    margin-left: 36px;
+}
+.logo a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    align-content: center;
+}
+nav ul {
+    display: flex;
+    margin-right: 36px;
+    padding: 0px;
+    gap: 0px;
+    list-style: none;
+}
+nav ul li {
+    align-content: center;
+    justify-content: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    padding: 7px;
+}
+.cat-link {
+    display: flex;
+    margin: 150px 0px 0px 36px;
+}
+.cat-link a {
+    text-decoration: none;
+    color: black;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 36px;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-links ul li {
+    align-content: center;
+    justify-content: center;
+    padding-right: 15px;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+#parent {
+    margin-left: 36px;
+    margin-right: 36px;
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.box {
+    margin-bottom: 25px;
+}
+.box img {
+    width: 455px;
+    height: 310px;
+    object-fit: cover;
+}
+.box #name, .box #description {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.box #name {
+    font-size: 15px;
+    margin-top: 5px;
+}
+.box #description {
+    font-size: 27px;
+    margin-top: 15px;
+}
+#bottom {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.stories {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.stories a {
+    text-decoration: none;
+    color: black;
+}
+.pointer {
+    display: flex;
+    justify-content: end;
+}
+.pointer a {
+    text-decoration: none;
+    color: black;
+}
+hr {
+    border: 0.5px solid black;
+}
+footer {
+    display: flex;
+    margin: 25px 36px 25px 36px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.left-foot {
+    display: flex;
+    flex-direction: column;
+}
+.left-foot a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.middle-foot {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.middle-foot button {
+    padding: 5px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.middle-foot input {
+    padding: 8px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.right-foot {
+    display: flex;
+    flex-direction: column;
+}
+.right-foot a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
