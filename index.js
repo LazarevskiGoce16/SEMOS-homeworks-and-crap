@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionString = 'mongodb+srv://gocelazarevski16:H87L87qAjPCMb6E@cluster0.7cvxefc.mongodb.net/baza1?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://<username>:<password>@cluster0.7cvxefc.mongodb.net/baza1?retryWrites=true&w=majority';
 
 const connect = (connectionString) => {
     return new Promise((success, fail) => {
