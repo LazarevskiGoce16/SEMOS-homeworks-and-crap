@@ -21,7 +21,12 @@ const singleBlogpost = async (req, res) => {
 };
 
 const formAdd = (req, res) => {
-    return res.render('form_add');
+    try {
+        return res.render('form_add');
+    } catch(err) {
+        console.log(err);
+        return res.status(500).send('Internal Server Error!');
+    }
 };
 
 const formEdit = async (req, res) => {
