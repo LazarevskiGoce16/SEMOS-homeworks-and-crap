@@ -1,0 +1,350 @@
+body, html {
+    font-family: 'Akshar', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+}
+main {
+    width: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 0px 0px;
+}
+.logo {
+    display: flex;
+    width: 150px;
+    height: 75px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    gap: 60px;
+}
+nav ul li {
+    border-radius: 18px;
+    padding: 10px;
+}
+nav ul li a {
+    color: #263238;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+#log {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+}
+#log img {
+    height: 18px;
+}
+#trial {
+    background-color: #fc9483;
+}
+#options {
+    border-radius: 0%;
+    background-color: #263238;
+    width: 75px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li:last-of-type a {
+    color: #FFF;
+}
+.yoga-pic-1:picture-in-picture 
+{
+    box-shadow: 5px 5px red;
+}
+.sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px;
+}
+.top-left {
+    display: flex;
+    width: calc(100% / 2);
+    margin-left: 200px;
+    flex-direction: column;
+}
+.top-left h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #263238;
+    width: 280px;
+    font-size: 50px;
+}
+.top-left p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #263238;
+    width: 260px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.top-left button {
+    display: flex;
+    width: 100px;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #263238;
+    border-width: 0px;
+    color: #FFF;
+    align-content: center;
+    justify-content: center;
+}
+.top-left h6 {
+    display: flex;
+    color: #263238;
+    font-size: 15px;
+}
+.top-right {
+    display: flex;
+    width: calc(100% / 2);
+}
+.back-img-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.yoga-pic-1 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 360px;
+    justify-content: center;
+    align-content: center;
+    margin: 70px 0px 20px 160px;
+}
+.sec-2 {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #cfebfd;
+}
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #cfebfd;
+    align-content: center;
+    justify-content: center;
+}
+.middle-text h2 {
+    display: flex;
+    color: #263238;
+    font-size: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.middle-text p {
+    display: flex;
+    color: #263238;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 50px 40px 50px;
+}
+.middle-pics {
+    display: flex;
+    flex-direction: row;
+    color: #263238;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.mid-pic-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-pic-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-pic-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-pic-1 p {
+    text-align: center;
+    margin: 0px 120px 50px 120px;
+}
+.mid-pic-2 p {
+    text-align: center;
+    margin: 0px 120px 50px 120px;
+}
+.mid-pic-3 p {
+    text-align: center;
+    margin: 0px 120px 50px 120px;
+}
+.sec-3 {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.middle-left {
+    display: flex;
+    background-color: #fc9483;
+    padding: 55px 100px;
+}
+.middle-right {
+    display: flex;
+    flex-direction: column;
+    color: #263238;
+    width: calc(100% / 2);
+    align-content: center;
+    justify-content: center;
+    margin-left: 350px;
+}
+.middle-right h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 50px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+.middle-right p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    width: 300px;
+}
+.middle-right button {
+    display: flex;
+    width: 100px;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #263238;
+    border-width: 0px;
+    color: #FFF;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #263238;
+}
+.bottom-left h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.bottom-left p  {
+    margin: 0px;
+}
+.bottom-left p:last-of-type {
+    margin-bottom: 70px;
+}
+.red {
+    color: red;
+}
+.bottom-right {
+    display: flex;
+    background-color: #cfebfd;
+    width: 100%;
+    margin-left: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.month {
+    display: flex;
+    background-color: #263238;
+    flex-direction: column;
+    padding: 30px 50px;
+    margin-left: 300px;
+}
+.month hr {
+    color: #FFF;
+    width: 100%;
+    height: 1px;
+}
+.year {
+    display: flex;
+    background-color: #263238;
+    flex-direction: column;
+    padding: 30px;
+    margin-right: 300px;
+}
+.year hr {
+    color: #FFF;
+    width: 100%;
+    height: 1px;
+}
+.month h3 {
+    color: #FFF;
+    font-size: 20px;
+}
+.month p {
+    color: #FFF;
+    text-align: center;
+}
+.month span {
+    color: #fc9483;
+    font-size: 40px;
+    text-align: center;
+}
+.month button {
+    display: flex;
+    width: 100px;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #263238;
+    border-width: 2px;
+    border-color: #FFF;
+    color: #FFF;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.year h3 {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+}
+.year p {
+    color: #FFF;
+    text-align: center;
+}
+.year span {
+    color: #fc9483;
+    font-size: 40px;
+    text-align: center;
+}
+.year button {
+    display: flex;
+    width: 100px;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #263238;
+    border-width: 2px;
+    border-color: #FFF;
+    color: #FFF;
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
+}
