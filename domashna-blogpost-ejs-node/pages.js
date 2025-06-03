@@ -1,0 +1,58 @@
+const blogpost = require('../models/blogpost');
+
+const main = async (req, res) => {
+    try {
+        let data = await blogpost.getAll();
+        return res.render('main', {data});
+    } catch(err) {
+        console.log(err);
+        return res.status(500).send('Internal Server Error!');
+    }
+};
+
+const singleBlogpost = async (req, res) => {
+    try {
+        let data = await blogpost.getOne(req.params.id);
+        return res.render('single_blogpost', {data});  
+    } catch (err) {
+        console.log(err);
+        return res.status(500).send('Internal Server Error!');
+    }
+};
+
+const formAdd = (req, res) => {
+    try {
+        return res.render('form_add');
+    } catch(err) {
+        console.log(err);
+        return res.status(500).send('Internal Server Error!');
+    }
+};
+
+const formEdit = async (req, res) => {
+    try {
+        let data = await blogpost.getOne(req.params.id);
+        return res.render('form_edit', {data});
+    } catch(err) {
+        console.log(err);
+        return res.status(500).send('Internal Server Error!');
+    }
+};
+
+const formRemove = async (req, res) => {
+  try {
+    let data = await blogpost.getOne(req.params.id);
+    return res.render('form_remove', {data});
+  } catch(err) {
+    console.log(err);
+    return res.status(500).send('Internal Server Error!');
+  }
+}
+
+module.exports = {
+    main,
+    singleBlogpost,
+    formAdd,
+    formEdit,
+    formRemove
+};
